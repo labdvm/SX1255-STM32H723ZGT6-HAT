@@ -1361,7 +1361,7 @@
 		(descr "Through hole straight socket strip, 2x30, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x30 2.54mm double row")
 		(property "Reference" "J4"
-			(at -1.27 -2.77 90)
+			(at -5.54 0.14 90)
 			(layer "F.SilkS")
 			(uuid "7c933559-08e0-46fe-b68c-e56f9a16de57")
 			(effects
@@ -1372,8 +1372,8 @@
 			)
 		)
 		(property "Value" "STM-R"
-			(at -1.27 76.43 90)
-			(layer "F.Fab")
+			(at -7.29 73.89 90)
+			(layer "F.SilkS")
 			(uuid "0553766e-9f5f-44df-a179-24b334705e7b")
 			(effects
 				(font
@@ -2728,7 +2728,7 @@
 		(descr "Through hole straight socket strip, 2x30, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x30 2.54mm double row")
 		(property "Reference" "J3"
-			(at -1.27 -2.77 90)
+			(at 2.75 0.1 90)
 			(layer "F.SilkS")
 			(uuid "0299de3b-c8cf-40e2-8e5f-a01df7c400f2")
 			(effects
@@ -2739,8 +2739,8 @@
 			)
 		)
 		(property "Value" "STM-L"
-			(at -1.27 76.43 90)
-			(layer "F.Fab")
+			(at 5.5 73.6 90)
+			(layer "F.SilkS")
 			(uuid "870eccfb-c7d9-479b-986f-3f2fd3591cdf")
 			(effects
 				(font
@@ -5123,9 +5123,9 @@
 				)
 			)
 		)
-		(property "Value" "PWR-LED Orange"
-			(at -8.5 0 0)
-			(layer "F.Fab")
+		(property "Value" "PWR"
+			(at -0.25 2 0)
+			(layer "F.SilkS")
 			(uuid "2799478c-edf6-4121-aba2-1361adf88290")
 			(effects
 				(font
@@ -6495,7 +6495,7 @@
 			)
 		)
 		(property "Value" "MCP1703Ax-330xxMB"
-			(at -3.75 1.25 0)
+			(at -3.75 1.75 0)
 			(layer "F.Fab")
 			(uuid "2408e852-0cc6-418e-a5ad-88422ad9a11b")
 			(effects
@@ -6753,7 +6753,7 @@
 		(descr "https://www.amphenolrf.com/library/download/link/link_id/593640/parent/901-144/")
 		(tags "SMA THT Female Jack Vertical")
 		(property "Reference" "J1"
-			(at 0 -4.75 0)
+			(at 2.79 5.71 0)
 			(layer "F.SilkS")
 			(uuid "b8c5e36b-bfa8-4e1c-b5b3-883ed49edd8a")
 			(effects
@@ -6763,9 +6763,9 @@
 				)
 			)
 		)
-		(property "Value" "TX_SMA"
-			(at 0 5 0)
-			(layer "F.Fab")
+		(property "Value" "TX_ANT"
+			(at 0.04 -6.54 0)
+			(layer "F.SilkS")
 			(uuid "087c57b4-7bf5-46b3-afde-ae28b8c7c582")
 			(effects
 				(font
@@ -7956,7 +7956,7 @@
 		(descr "https://www.amphenolrf.com/library/download/link/link_id/593640/parent/901-144/")
 		(tags "SMA THT Female Jack Vertical")
 		(property "Reference" "J2"
-			(at 0 -4.75 0)
+			(at -2.71 -5 0)
 			(layer "F.SilkS")
 			(uuid "439a2b30-5dc3-48e3-beab-8593a7104486")
 			(effects
@@ -7966,9 +7966,9 @@
 				)
 			)
 		)
-		(property "Value" "RX_SMA"
-			(at 0 5 0)
-			(layer "F.Fab")
+		(property "Value" "RX_ANT"
+			(at -0.21 5.25 0)
+			(layer "F.SilkS")
 			(uuid "a148084f-d6c1-4e90-b4f9-87d74ae7519f")
 			(effects
 				(font
@@ -8701,7 +8701,7 @@
 	(footprint "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen"
 		(layer "F.Cu")
 		(uuid "e9f12cfe-ed92-46b0-aa46-9b98d3383c61")
-		(at 174.75 86.5)
+		(at 174.25 86.5)
 		(descr "Open Source Hardware Symbol")
 		(tags "Logo Symbol OSHW")
 		(property "Reference" "REF**"
@@ -11065,6 +11065,56 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_line
+		(start 103.5 78.5)
+		(end 103.5 53)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "241214f5-d283-4553-9dee-cc1b1591a20e")
+	)
+	(gr_line
+		(start 180.5 53)
+		(end 180.5 97.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3048660b-3eca-461f-a3dc-9ca168550e91")
+	)
+	(gr_line
+		(start 103.5 53)
+		(end 180.5 53)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "628ac034-5afd-48c7-bba5-c2780459ffec")
+	)
+	(gr_line
+		(start 103.5 97.25)
+		(end 103.5 78.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b31abc4f-909c-4554-83da-ec9ec2ec3c15")
+	)
+	(gr_line
+		(start 180.5 97.25)
+		(end 103.5 97.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e9cdb363-52d2-49d0-bc28-13e0fd8bfe4a")
 	)
 	(segment
 		(start 142 67.7)
